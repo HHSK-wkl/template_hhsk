@@ -1,2 +1,30 @@
 project:
   type: default
+  
+format:
+  html:
+    link-external-newwindow: true  
+  
+include-in-header:
+  - text: |
+      <link rel = "shortcut icon" href = "_extensions/HHSK-wkl/brand_hhsk/brand/favicon.svg" />
+      
+execute:
+  echo: false
+  warning: false
+  message: false
+  
+knitr:
+  opts_chunk:
+    dev: "ragg_png"
+  
+lang: nl
+language: 
+  nl:
+    section-title-abstract: ""
+    title-block-published: "Datum"
+    toc-title-document: "In dit hoofdstuk"
+    crossref-fig-title: "Figuur"
+    crossref-tbl-title: "Tabel"
+    crossref-ch-prefix: "hoofdstuk"
+    

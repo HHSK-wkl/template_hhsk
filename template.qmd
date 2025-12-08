@@ -1,5 +1,23 @@
 ---
 title: "template"
 format: html
+date: today
+toc: true
 ---
+
+# Test
+
+{{< lipsum 1 >}}
+
+## Header 2
+
+{{< lipsum 1 >}}
+
+## Nog een header 2
+
+{{< lipsum 1 >}}
+
+```{r}
+plot(pressure)
+```
 
