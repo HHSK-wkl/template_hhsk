@@ -6,3 +6,5 @@
 **/*.quarto_ipynb
 template.html
 template_files
+template_presentatie.html
+template_presentatie_html.html
