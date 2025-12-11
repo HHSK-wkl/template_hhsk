@@ -11,7 +11,11 @@ toc: true
 
 ## Header 2
 
-{{< lipsum 1 >}}
+```{r}
+#| file: "R/CODE_template.R"
+#| echo: true
+```
+
 
 ## Nog een header 2
 
